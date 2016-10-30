@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  font-size: 16px;
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.clear-fix {
+  clear: both; }
+
+a {
+  color: #f44336; }
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none; }
+
+.cv__email:after {
+  content: "thabang"; }
+.cv__contact {
+  min-width: 100%; }
+.cv__image {
+  display: block;
+  height: auto;
+  width: 75%; }
+.cv__subtitle {
+  margin: .35rem 0; }
+.cv__subtitle_key {
+  float: left;
+  font-weight: 600;
+  width: 35%; }
+.cv__subtitle_value {
+  float: left;
+  width: 65%; }
+
+ul {
+  margin: 0 1rem;
+  padding: 0; }
+
+.column {
+  float: left;
+  padding: 0 1rem;
+  max-height: 100%;
+  overflow-y: auto; }
+  @media (min-width: 0) and (max-width: 768px) {
+    .column {
+      width: 50%; } }
+  @media (min-width: 768px) {
+    .column {
+      width: 25%; } }
+  .column__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    text-align: center; }
+  .column__underline {
+    background-color: #03a9f4;
+    height: 3px;
+    width: 100%; }
+
+.section {
+  border: solid 2px #03a9f4;
+  margin: .5rem 0;
+  overflow-x: auto;
+  position: relative; }
+  .section--flat {
+    border: 0; }
+  .section__title {
+    background-color: #03a9f4;
+    color: #fff;
+    font-size: 1.05rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    width: 100%; }
+  .section__content {
+    margin: 1rem; }
+    .section__content--no-margin {
+      margin: 0; }
+
+.image--centered {
+  margin: 0 auto; }
+.image--round {
+  border-radius: 50%; }
+
+.work {
+  padding: 1rem; }
+  .work--top-border {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #03a9f4 transparent transparent transparent; }
+  .work__name {
+    font-size: 1.1rem;
+    font-weight: 700; }
+  .work__role {
+    font-weight: bold;
+    margin: .4rem 0; }
+  .work__duties {
+    margin: .35rem 0; }
+  .work__address {
+    background-color: #4fc3f7;
+    border: 1px dashed #03a9f4;
+    font-family: arial;
+    margin: .4rem 0;
+    padding: .4rem;
+    padding-left: 15%; }
+    .work__address .address {
+      color: #fff; }
+
+.duration {
+  margin: .2rem 0; }
+  .duration__start, .duration__end {
+    float: left;
+    width: 40%; }
+  .duration__to {
+    float: left;
+    width: 20%; }
+  .duration__month, .duration__year {
+    float: left;
+    width: 50%; }
+
+.address {
+  display: inline-block;
+  padding: .25rem; }
+  .address__physical, .address__suburb, .address__city {
+    text-align: left; }
+
+.technical_skills__table {
+  font-size: .9rem;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word; }
+.technical_skills table,
+.technical_skills th,
+.technical_skills td {
+  border: solid 1px #03a9f4;
+  border-collapse: collapse; }
+.technical_skills th, .technical_skills td {
+  padding: .25rem 0; }
+
+.handle {
+  margin: .1rem; }
