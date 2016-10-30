@@ -48,7 +48,8 @@ ul {
 
 li {
   padding-left: 1em;
-  text-indent: -.7em; }
+  text-indent: -.7em;
+  margin: .4rem 0; }
 
 li::before {
   color: #03a9f4;
