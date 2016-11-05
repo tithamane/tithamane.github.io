@@ -21,25 +21,29 @@ a:hover {
   cursor: pointer;
   text-decoration: none; }
 
-.cv__email:after {
-  content: "thabang"; }
-.cv__contact {
-  min-width: 100%; }
-.cv__image {
-  display: block;
-  height: auto;
-  width: 75%; }
-.cv__subtitle {
-  margin: .35rem 0; }
-.cv__subtitle_key {
-  float: left;
-  font-weight: 600;
-  width: 35%; }
-.cv__subtitle_value {
-  float: left;
-  width: 65%; }
-.cv__school_subject_list {
-  margin: .5rem 0; }
+.cv {
+  color: rgba(0, 0, 0, 0.84);
+  font-family: arial, sans-serif;
+  font-size: 15px; }
+  .cv__email:after {
+    content: "thabang"; }
+  .cv__contact {
+    min-width: 100%; }
+  .cv__image {
+    display: block;
+    height: auto;
+    width: 75%; }
+  .cv__subtitle {
+    margin: .35rem 0; }
+  .cv__subtitle_key {
+    float: left;
+    font-weight: 600;
+    width: 35%; }
+  .cv__subtitle_value {
+    float: left;
+    width: 65%; }
+  .cv__school_subject_list {
+    margin: .5rem 0; }
 
 ul {
   list-style: none;
@@ -67,6 +71,7 @@ li::before {
     .column {
       width: 25%; } }
   .column__title {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
     margin-top: 1rem;
@@ -84,9 +89,12 @@ li::before {
   position: relative; }
   .section--flat {
     border: 0; }
+  .section--no-shadow {
+    box-shadow: none; }
   .section__title {
     background-color: #03a9f4;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.05rem;
     height: 2rem;
     line-height: 2rem;
@@ -101,6 +109,8 @@ li::before {
   margin: 0 auto; }
 .image--round {
   border-radius: 50%; }
+.image--shadow {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2); }
 
 .work {
   padding: 1rem; }
@@ -145,7 +155,7 @@ li::before {
     text-align: left; }
 
 .technical_skills__table {
-  font-size: .9rem;
+  font-size: .85rem;
   text-align: center;
   width: 100%;
   word-wrap: break-word; }
