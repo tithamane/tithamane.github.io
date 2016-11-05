@@ -78,6 +78,7 @@ li::before {
 
 .section {
   border: solid 2px #03a9f4;
+  box-shadow: -2px -1px 7px rgba(0, 0, 0, 0.2);
   margin: .5rem 0;
   overflow-x: auto;
   position: relative; }
